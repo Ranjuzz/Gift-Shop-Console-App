@@ -1,4 +1,5 @@
 public class Gifts {
+
     String name;
     String type;
     int price;
@@ -18,4 +19,5 @@ public class Gifts {
     public int getPrice() {
         return price;
     }
+
 }

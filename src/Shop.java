@@ -3,6 +3,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Shop {
+
     private final HashMap<String, Gifts> gifts;
     private String[] cart;
     private double total = 0.0;
@@ -84,11 +85,13 @@ public class Shop {
     }
 
     public void startShopping() {
+
         displayGifts();
         getInput();
         validateGifts();
         calculateTotal();
         generateBill();
         displayBill();
+
     }
 }
